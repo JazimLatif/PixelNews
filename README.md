@@ -11,11 +11,12 @@ The project is scalable, I included a navigation component in case more screens 
 Different UI states were considered by my use of `rememberSaveable`, using just `remember` would have lost a coin selection on orientation change
 
 I attempted to animate the list by using a scroll to top button, which smoothly brings the user to the top of the list in order to refresh
-
+I used AI to create an XML app icon, and added a search bar which wasn't required but I felt like the app needed it. 
 ---
 
 ### Improvements:
 - More tests would be advantageous
+- If I were to improve the search/filtering, seeing the most 'relevant' (popular) coins at the top might be good
 - I would also like to make it adapt to light and dark theme, rather than not using the proper Android theming at all in the interest of time
 - I think perhaps the BottomSheet component would be more testable if it took more parameters to hoist state better (like passing the list of coins to the composable)
 - I am new to creating hilt annotations for passing a dispatcher to a viewmodel, so I'm unsure if there's a better way to make the VM testable (I struggled getting the VM tests to all pass without doing this Dependency Injection)
