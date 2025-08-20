@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="140"
+    android:viewportHeight="140">
+
+    <!-- Background Circle -->
+    <path
+        android:fillColor="#1E1E1E"
+        android:pathData="M70,7C102,7 130,35 130,70C130,102 102,130 70,130C35,130 7,102 7,70C7,35 35,7 70,7z" />
+
+    <!-- Newspaper Icon -->
+    <path
+        android:fillColor="#F5F5F5"
+        android:strokeWidth="1.5"
+        android:strokeColor="#B0B0B0"
+        android:pathData="M30,38H90V80H30Z" />
+
+    <!-- Folded Edge -->
+    <path
+        android:fillColor="#E0E0E0"
+        android:pathData="M85,38 L90,43 L90,80 L85,80 Z" />
+
+    <!-- News Header -->
+    <path android:fillColor="#424242" android:pathData="M35,42H85V46H35Z" />
+
+    <!-- News lines -->
+    <path android:fillColor="#757575" android:pathData="M35,50H85V52H35Z" />
+    <path android:fillColor="#757575" android:pathData="M35,54H85V56H35Z" />
+    <path android:fillColor="#757575" android:pathData="M35,58H85V60H35Z" />
+    <path android:fillColor="#757575" android:pathData="M35,62H85V64H35Z" />
+
+    <!-- Cryptocurrency Coin -->
+    <path
+        android:fillColor="#F7931A"
+        android:pathData="M80,88A16,16 0 1,1 112,88A16,16 0 1,1 80,88Z" />
+
+    <!-- Bitcoin Symbol -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M92,82H100C102,82 103,84 103,86C103,88 102,90 100,90H92Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M92,88H100C102,88 103,90 103,92C103,94 102,96 100,96H92Z" />
+
+    <!-- Bitcoin "B" Vertical Lines -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M94,80V98H96V80Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M98,80V98H100V80Z" />
+</vector>
