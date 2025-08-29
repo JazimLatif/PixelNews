@@ -1,12 +1,3 @@
-# Built by Pixel NewsUK Android Task Submission
-
-Thanks for taking the time to review my submission for the Built by Pixel Android task.
-
-This was a fun project that expanded upon my experience and I had a lot of fun making it.
-
-I attempted to write clean, SOLID code, demonstrating separation of concerns, clean architecture and sound MVVM design decisions.
-
-The project is scalable, I included a navigation component in case more screens need to be added.
 
 Different UI states were considered by my use of `rememberSaveable`, using just `remember` would have lost a coin selection on orientation change
 
